@@ -19,12 +19,12 @@
         $query_run = mysqli_query($conn,$query);
         if ($query_run)
         {
-            echo '<script> alert("PORT UPDATED");</script>';
+            echo '<script> alert("PORT");</script>';
             header('Location:index.php');
         }
         else
         {
-            echo '<script> alert("PORT  NOT SAVED");</script>';
+            echo '<script> alert(" NO RECORD ");</script>';
         }
     }
 
